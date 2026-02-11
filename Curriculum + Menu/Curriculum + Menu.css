@@ -1,0 +1,86 @@
+h1, h2{
+    color: blue;
+}
+
+h1{
+    background-color: rgb(153, 153, 255);
+    text-align: center;
+}
+
+.bio{
+    margin-top: -20px;
+    text-align: center;
+}
+
+h2{
+    padding: 10px;
+    background-color: rgb(178, 178, 178);
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: blue;
+}
+body{
+    color: rgb(56, 56, 56);
+    background-color: gainsboro;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+hr{
+    color: blue;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    
+    a:visited, link{
+        color: black;
+    }
+    a:hover{
+        padding-left: 35px;
+        padding-right: 35px;
+        background-color: gray;
+    
+    }
+}
+
+.menu2 li{
+    margin-bottom: 25px;
+    margin-top: 15px;
+    list-style-type: none;
+    display: inline-block;
+}
+.menu2 a{
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: gray;
+}
+
+.menu2 a:hover{
+    background-color: white;
+}
+.menu2 a:visited{
+    color: black;
+}
