@@ -1,1 +1,1 @@
-some projects that i made while learning
+some html and css projects.
