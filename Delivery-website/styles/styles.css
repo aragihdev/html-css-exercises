@@ -1,13 +1,12 @@
 /*CODIGO DA COR DO SITE #7B1FA2*/
 
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 body{
 
 margin: 0;
 
 font-family: Arial, Helvetica, sans-serif;
-
 }
 
 /*centralizar o site*/
@@ -59,7 +58,6 @@ main {
   background-color: rgb(157, 151, 159);
 
   display: flex;
-
 }
 
 
@@ -99,7 +97,7 @@ section {
   width: 80%;
 
   text-align: justify;
-
+  font-family: "Oswald", sans-serif;
 }
 
 
