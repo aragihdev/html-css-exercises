@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    ;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    padding: 5px;
+    width: 700px;
+    background-color: paleturquoise;
+    width: 50%;
+    margin: auto;
+}
+
+tbody tr {
+    background-color: palegoldenrod;
+}
+
+/*cor linha sim linha não*/
+tbody tr:nth-child(even) {
+    background-color: rgb(231, 222, 124)
+}
+
+/*efeito quando passar o mouse*/
+tbody tr:hover {
+    filter: brightness(0.8);
+}
+
+td {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.mes {
+    background-color: deeppink;
+}
+
+tfoot {
+    background-color: palegreen;
+}
