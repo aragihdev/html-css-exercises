@@ -39,6 +39,9 @@ nav a {
 nav ul {
     margin-top: 20px;
 }
+nav a:hover{
+    filter: hue-rotate(20deg) saturate(2.5) brightness(2);
+}
 
 /*logo e titulo do site*/
 .title {
@@ -76,7 +79,7 @@ section h2 {
 
 section h3 {
     font-size: 26px;
-    color: purple;
+    color: yellow;
 }
 
 section p {
@@ -96,13 +99,29 @@ section li {
     margin-top: 40px;
 }
 
+/*efeito hover nas mençoes*/
 .mention {
-    color: yellow;
+    color: darkmagenta;
 }
+.mention:hover{
+    color: red;
+}
+
+/*organizacao nas fotos das paginas de escolher*/
 .character{
     border: 2px solid white;
     padding: 20px;
-    margin-right: 50px;
+}
+.characters li{
+    margin-right: 20px;
+}
+
+.place{
+    width: 200px;
+    height: 150px;
+}
+figcaption{
+    text-align: center;
 }
 
 /*footer*/

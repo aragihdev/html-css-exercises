@@ -39,7 +39,9 @@ nav a {
 nav ul {
     margin-top: 20px;
 }
-
+nav a:hover{
+    filter: hue-rotate(20deg) saturate(2.5) brightness(2);
+}
 /*logo e titulo do site*/
 .title {
     font-size: 20px;
@@ -84,9 +86,11 @@ section p {
 }
 
 .mention {
-    color: yellow;
+    color: darkmagenta;
 }
-
+.mention:hover{
+    color: red;
+}
 /*footer*/
 
 footer {
